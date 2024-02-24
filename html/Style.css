@@ -1,0 +1,60 @@
+.fondo {
+    background-color: rgb(2, 41, 41);
+    color: rgb(65, 128, 3);
+    font-family: cursive;
+}
+
+.central{
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.cards:hover{
+    border:solid 5px rgb(70, 150, 10);
+    border-radius: 5%;
+    opacity: 1;
+}
+
+.miTexto {
+    font-size: 1rem;
+    color: rgb(65, 128, 3);
+    opacity: 0;
+}
+
+.miTexto:hover{
+    opacity: 1;
+    transition: opacity 2s;
+}
+
+.img{
+    width: 15vw;
+    height: 10vw;
+}
+
+#er{
+    font-size: 60px;
+}
+
+#end{
+    font-size: 20px;
+}
+
+#title{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    color: black;
+}
